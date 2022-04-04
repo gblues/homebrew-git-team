@@ -1,21 +1,28 @@
-[![Build Status](https://travis-ci.com/hekmekk/homebrew-git-team.svg?branch=master)](https://travis-ci.com/github/hekmekk/homebrew-git-team)
-
 # homebrew-git-team
 
-Homebrew formula for [git-team](https://github.com/hekmekk/git-team)
+Homebrew formula for [git-team](https://github.com/gblues/git-team)
+
+This formula is a temporary work-around for git-team 1.7.0 which does not
+build with go 1.18.
+
+## What's different?
+
+This formula lets you install git-team without needing to use `--HEAD`. This
+means that new, in-progress code will not be included and potentially cause
+problems.
 
 ## Installation
 
 1. Add tap
 ```bash
-brew tap hekmekk/git-team
+brew tap gblues/git-team
 ```
 
 2. Install git-team
 
 Install stable release. Use `--HEAD` in case you want to install from the latest commit.
 ```bash
-brew install git-team
+brew install gblues/git-team/git-team
 ```
 
 ## Development
