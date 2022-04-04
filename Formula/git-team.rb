@@ -3,7 +3,7 @@ class GitTeam < Formula
   homepage "https://github.com/hekmekk/git-team"
   url "https://github.com/gblues/git-team.git",
       :tag      => "v1.7.0",
-      :revision => "5533f0c8758fedb7ea6793a51ee7f906f00d4f5c"
+      :revision => "34a76b5902f7ed3fbcbb9e1456ee9a61a2cf5a50"
   license "MIT"
   head "https://github.com/hekmekk/git-team.git", :branch => "main"
 
