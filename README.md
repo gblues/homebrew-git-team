@@ -3,7 +3,8 @@
 Homebrew formula for [git-team](https://github.com/gblues/git-team)
 
 This formula is a temporary work-around for git-team 1.7.0 which does not
-build with go 1.18.
+build with go 1.18. **I am not maintaining this fork any further; if upstream
+has updated past 1.7.0, please remove this formula and revert to upstream.**
 
 ## What's different?
 
